@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4d55d15a.css",
+    "main.js": "/static/js/main.eabfb841.js",
+    "static/media/kanapDesktop.png": "/static/media/kanapDesktop.e31c28224d29de6ae31c.png",
+    "static/media/LachouetteAgence.png": "/static/media/LachouetteAgence.f1a1171e700fe125b1fc.png",
+    "static/media/reserviaDesktop.png": "/static/media/reserviaDesktop.c68ff501995e3df28f58.png",
+    "static/media/imageZ.jpg": "/static/media/imageZ.acb21639783168ff7238.jpg",
+    "static/media/groupomania.png": "/static/media/groupomania.5cd3bd4cdc1182373d9d.png",
+    "static/media/PiquanteDesktop.png": "/static/media/PiquanteDesktop.432ca0a752c12b491098.png",
+    "static/media/ohmyfoodDesktop.png": "/static/media/ohmyfoodDesktop.14876cbea6d9fafd1d38.png",
+    "index.html": "/index.html",
+    "main.4d55d15a.css.map": "/static/css/main.4d55d15a.css.map",
+    "main.eabfb841.js.map": "/static/js/main.eabfb841.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d55d15a.css",
+    "static/js/main.eabfb841.js"
+  ]
+}

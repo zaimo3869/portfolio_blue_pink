@@ -1,0 +1,354 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300&family=Montserrat:ital,wght@1,300&family=Oswald:wght@300;400;500&family=Roboto:wght@100&family=Shrikhand&display=swap");
+html {
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+nav {
+  background-color: #9f496e;
+  color: #2a262c;
+  font-family: 'Bebas Neue', cursive;
+  font-size: large;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 10vh;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav span:active {
+  color: #264de4;
+}
+
+.lds-ellipsis {
+  -webkit-animation: Apparition 1s ease-in-out;
+          animation: Apparition 1s ease-in-out;
+}
+
+.lds-ellipsis svg {
+  -webkit-animation: myframe  2s ease;
+          animation: myframe  2s ease;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: CENTER;
+      -ms-flex-align: CENTER;
+          align-items: CENTER;
+}
+
+.code {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Background {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #2a262c;
+  width: 100%;
+}
+
+.Background SVG {
+  width: 5vh;
+  height: 5vh;
+}
+
+.Background SVG.html {
+  background-color: #e34c26;
+}
+
+.Background SVG.css {
+  background-color: #264de4;
+}
+
+.Background SVG.sass {
+  background-color: #cd6799;
+}
+
+.Background SVG.js {
+  background-color: #f0db4f;
+}
+
+.Background SVG.react {
+  background-color: #61DBFB;
+}
+
+.Background SVG.nodeJs {
+  background-color: #3C873A;
+}
+
+.Background SVG.db {
+  background-color: #f1eae4;
+}
+
+.Background .Begin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.Background .Begin img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  float: left;
+  height: 10rem;
+  -webkit-animation: rotate1 2s ease-in-out;
+          animation: rotate1 2s ease-in-out;
+}
+
+.Background .Begin div {
+  width: 100%;
+}
+
+.Background .Begin div a {
+  width: 20%;
+  margin: 1%;
+  text-decoration: none;
+  color: #f1eae4;
+}
+
+.Background .fontColor {
+  color: #9f496e;
+}
+
+.Background .fontColor2 {
+  color: #f1eae4;
+}
+
+@media screen and (max-width: 1200px) {
+  section {
+    padding-top: 5%;
+    background-color: #9f496e;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+  }
+  section a {
+    background-color: #f1eae4;
+    color: #9f496e;
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    aspect-ratio: 2/1;
+    border-radius: 25px;
+    -webkit-box-shadow: 1px 1px 4px 2px #9f496d;
+            box-shadow: 1px 1px 4px 2px #9f496d;
+    margin: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 4%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-decoration: none;
+  }
+  section a h2 {
+    padding: 0px;
+    margin: 0px;
+  }
+  section a img {
+    border-radius: 25px;
+    width: 100%;
+    background-size: cover;
+  }
+  section a P {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes rotate1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes rotate1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes myframe {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes myframe {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes Apparition {
+  from {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  to {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
+@keyframes Apparition {
+  from {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  to {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
+@-webkit-keyframes Apparition1 {
+  from {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  to {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
+@keyframes Apparition1 {
+  from {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  to {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
+@-webkit-keyframes Apparition2 {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+}
+
+@keyframes Apparition2 {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+}
+
+@media screen and (min-width: 750px) {
+  section {
+    width: 100%;
+    margin: 0px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  section a {
+    width: 20%;
+    padding: 2%;
+    margin: 2%;
+    text-decoration: none;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 750px) {
+  section {
+    width: 100%;
+    margin: 0px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  section a {
+    width: 30%;
+  }
+}
+/*# sourceMappingURL=App.css.map */
